@@ -52,3 +52,24 @@ Application's own `setup.bat` or `setup.ps1` separately after root setup. Those
 scripts own local templates and user-file preservation and should check existing
 platform prerequisites; they do not invoke root setup. Platform checkouts need
 no Application source to provision tools.
+
+## Completion workstream status
+
+This repository does not yet contain a Completion AppPack, VS Code extension,
+application-local setup scripts or a runnable Completion launcher. The root
+setup above prepares **Tertalis platform internals only**. It does not install
+an extension, start a model service or turn Completion into a usable application.
+
+For existing platform development and verification, after root setup:
+
+```powershell
+.\python-embedded\python.exe -X frozen_modules=off -m pytest tests
+.\python-embedded\python.exe -X frozen_modules=off .\scripts\verify_tools.py
+```
+
+These are documented checks, not claims of tests run during migration.
+See [README.md](README.md) for what is and is not implemented and
+[AGENTS.md](AGENTS.md) for the authoritative cross-repository work
+protocol. The `ai-workflow/` tree in this repository is a copied
+historical snapshot; its canonical file-based counterpart remains on
+`EnterTheNameHere/Turnix` branch `actant-integration`.
