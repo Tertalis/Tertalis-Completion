@@ -9,9 +9,9 @@ Do not present it as runnable end-user completion software.
 
 1. Read [README.md](README.md) and [SETUP.md](SETUP.md).
 2. Read the canonical
-   [coordination index](https://github.com/EnterTheNameHere/Turnix/blob/actant-integration/ai-workflow/index.txt)
+   [coordination index](https://github.com/Tertalis/Tertalis/blob/integration/ai-workflow/index.txt)
    and
-   [protocol](https://github.com/EnterTheNameHere/Turnix/blob/actant-integration/ai-workflow/coordination-protocol.txt).
+   [protocol](https://github.com/Tertalis/Tertalis/blob/integration/ai-workflow/coordination-protocol.txt).
 3. On that canonical `actant-integration` ref, review
    `ai-workflow/handoff/completion-thread.txt`,
    `ai-workflow/state/completion.txt`, current assignments and inbox,
@@ -53,3 +53,16 @@ These are platform setup and test commands, not application launch
 commands. No Completion application-specific setup or `run.bat` exists
 at present. Report exact refs, checks actually performed and any
 unverified assumptions. Follow the canonical handoff/finish barrier.
+
+## Shared ai-workflow boundary
+
+Every assistant, implementer, integrator, coordinator and design thread must
+read the current canonical ai-workflow instructions at
+[Tertalis/Tertalis integration](https://github.com/Tertalis/Tertalis/blob/integration/ai-workflow/index.txt)
+before working. This repository's `ai-workflow/index.txt` is only a local
+routing stub; its `integration` branch is the application's development
+branch, not a coordination authority. All operational inboxes, messages,
+workstream state and repository-location registry are maintained only in
+`Tertalis/Tertalis` on `integration`. Do not create a local inbox or rely
+on copied historical mail. For other applications, consult Tertalis's
+canonical registry rather than recording their addresses here.
