@@ -61,8 +61,8 @@ This repository participates in the single Tertalis development
 coordination system; the copied `ai-workflow/` tree here is not an active
 independent inbox. Until the approved cross-repository backend cutover,
 the authoritative file-based protocol, inbox and workstream state remain
-on branch `actant-integration` in
-[EnterTheNameHere/Turnix](https://github.com/EnterTheNameHere/Turnix/tree/actant-integration).
+on branch `integration` in
+[EnterTheNameHere/Turnix](https://github.com/Tertalis/Tertalis/tree/integration).
 
 Read [AGENTS.md](AGENTS.md) before using coding agents or coordinating
 implementation. A platform revision must be adopted through an
