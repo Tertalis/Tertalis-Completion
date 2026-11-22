@@ -12,7 +12,7 @@ Do not present it as runnable end-user completion software.
    [coordination index](https://github.com/Tertalis/Tertalis/blob/integration/ai-workflow/index.txt)
    and
    [protocol](https://github.com/Tertalis/Tertalis/blob/integration/ai-workflow/coordination-protocol.txt).
-3. On that canonical `actant-integration` ref, review
+3. On the canonical `Tertalis/Tertalis` `integration` ref, review
    `ai-workflow/handoff/completion-thread.txt`,
    `ai-workflow/state/completion.txt`, current assignments and inbox,
    before acquiring any ownership claim.
