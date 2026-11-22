@@ -16,8 +16,8 @@ Do not present it as runnable end-user completion software.
    `ai-workflow/handoff/completion-thread.txt`,
    `ai-workflow/state/completion.txt`, current assignments and inbox,
    before acquiring any ownership claim.
-4. Read relevant `docs/` and `design/` contracts for application
-   lifecycles, externally initiated work, LLM execution, cancellation
+4. Read relevant platform `docs/` and `design/` contracts from
+   `Tertalis/Tertalis` `integration` for application lifecycles, externally initiated work, LLM execution, cancellation
    and shared host boundaries. Historic draft designs are not a
    substitute for current verified implementation behavior.
 
@@ -58,8 +58,8 @@ unverified assumptions. Follow the canonical handoff/finish barrier.
 
 For Tertalis platform contracts and design, consult the CURRENT
 `Tertalis/Tertalis` `integration` `design/index.txt` and relevant
-authoritative platform design/docs, not this Application checkout's
-possibly older copied `design/` or `docs/` files. Retrieve only the
+authoritative platform design/docs, because this Application does not carry copied root `design/`
+or `docs/` trees. Retrieve only the
 areas pertinent to the assigned task and its dependencies; do not load
 the entire design corpus by default. Current documentation does NOT
 authorize upgrading this Application's accepted Tertalis source SHA.
