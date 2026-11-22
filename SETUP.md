@@ -72,4 +72,4 @@ See [README.md](README.md) for what is and is not implemented and
 [AGENTS.md](AGENTS.md) for the authoritative cross-repository work
 protocol. The `ai-workflow/` tree in this repository is a copied
 historical snapshot; its canonical file-based counterpart remains on
-`EnterTheNameHere/Turnix` branch `actant-integration`.
+`Tertalis/Tertalis` branch `integration`.
